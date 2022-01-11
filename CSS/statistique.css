@@ -1,0 +1,29 @@
+/* Page Statistiques */
+.statistique {
+    padding: 120px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: url("../images/bg7.png") no-repeat top center/100% auto;
+}
+.title h2 {
+    margin-top: 25px;
+}
+.statistique .cat-container {
+    display: flex;
+    justify-content: space-around;
+}
+.statistique .cat-container span:first-child{
+    font-weight: 500;
+    font-size: 2rem;
+}
+.statistique .cat-container img {
+    width: 25%;
+}
+#piechart{
+    height: 550px;
+    width: 1000px;
+    margin-left: 23%;
+}
+#piechart text{
+    font-family: "Poppins", sans-serif;
+}
